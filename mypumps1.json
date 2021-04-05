@@ -1,0 +1,9 @@
+{ "pumps":  [
+      { "address": 2,
+      "diameter" : 14.3,
+      "volume" : 10,
+      "rate" : 100,
+      "rate-units" : "ul/min",
+      "vol-units" : "UL"
+    }
+]}

@@ -1,0 +1,47 @@
+{ "pumps":  [
+      { "address": 2,
+      "diameter" : 14.3,
+      "volume" : 15,
+      "rate" : 200,
+      "rate-units" : "UM", "vol-units" : "UL"
+    }
+
+],
+
+"programs": [
+  { "name":  "erin pulse",
+    "total volume": 1000.0,
+    "flow rate" : 10.0,
+    "pulse rate":  150.0,
+    "pulse duration":  0.5,
+    "pulse frequency":  19.5
+  },
+  { "name":  "long pulses",
+    "total time": 180,
+    "flow rate" : 10.0,
+    "pulse rate":  100.0,
+    "pulse duration":  30.0,
+    "pulse frequency":  30.0
+  },
+   { "name":  "pulse no w",
+    "total volume": 1000.0,
+    "flow rate" : 5.0,
+    "pulse rate":  100.0,
+    "pulse duration":  0.5,
+    "pulse frequency":  19.5
+  },
+   { "name":  "pulse w/ w",
+    "total volume": 10.0,
+    "flow rate" : 10.0,
+    "pulse rate":  100.0,
+    "pulse duration":  10.0,
+    "pulse frequency":  30.0
+  },
+   { "name":  "wash",
+    "total volume": 10.0,
+    "flow rate" : 10.0,
+    "pulse rate":  100.0,
+    "pulse duration":  10.0,
+    "pulse frequency":  30.0
+  }
+ ]}
